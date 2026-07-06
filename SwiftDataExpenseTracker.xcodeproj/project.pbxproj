@@ -7,13 +7,13 @@
 	objects = {
 
 /* Begin PBXFileReference section */
-		045075C22FFBB92800250891 /* SwiftData.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SwiftData.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		045075C22FFBB92800250891 /* SwiftDataApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SwiftDataApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
 /* Begin PBXFileSystemSynchronizedRootGroup section */
-		045075C42FFBB92800250891 /* SwiftData */ = {
+		045075C42FFBB92800250891 /* SwiftDataExpenseTracker */ = {
 			isa = PBXFileSystemSynchronizedRootGroup;
-			path = SwiftData;
+			path = SwiftDataExpenseTracker;
 			sourceTree = "<group>";
 		};
 /* End PBXFileSystemSynchronizedRootGroup section */
@@ -32,7 +32,7 @@
 		045075B92FFBB92800250891 = {
 			isa = PBXGroup;
 			children = (
-				045075C42FFBB92800250891 /* SwiftData */,
+				045075C42FFBB92800250891 /* SwiftDataExpenseTracker */,
 				045075C32FFBB92800250891 /* Products */,
 			);
 			sourceTree = "<group>";
@@ -40,7 +40,7 @@
 		045075C32FFBB92800250891 /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				045075C22FFBB92800250891 /* SwiftData.app */,
+				045075C22FFBB92800250891 /* SwiftDataApp.app */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -48,9 +48,9 @@
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		045075C12FFBB92800250891 /* SwiftData */ = {
+		045075C12FFBB92800250891 /* SwiftDataApp */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 045075CD2FFBB92B00250891 /* Build configuration list for PBXNativeTarget "SwiftData" */;
+			buildConfigurationList = 045075CD2FFBB92B00250891 /* Build configuration list for PBXNativeTarget "SwiftDataApp" */;
 			buildPhases = (
 				045075BE2FFBB92800250891 /* Sources */,
 				045075BF2FFBB92800250891 /* Frameworks */,
@@ -61,13 +61,13 @@
 			dependencies = (
 			);
 			fileSystemSynchronizedGroups = (
-				045075C42FFBB92800250891 /* SwiftData */,
+				045075C42FFBB92800250891 /* SwiftDataExpenseTracker */,
 			);
-			name = SwiftData;
+			name = SwiftDataApp;
 			packageProductDependencies = (
 			);
 			productName = SwiftData;
-			productReference = 045075C22FFBB92800250891 /* SwiftData.app */;
+			productReference = 045075C22FFBB92800250891 /* SwiftDataApp.app */;
 			productType = "com.apple.product-type.application";
 		};
 /* End PBXNativeTarget section */
@@ -85,7 +85,7 @@
 					};
 				};
 			};
-			buildConfigurationList = 045075BD2FFBB92800250891 /* Build configuration list for PBXProject "SwiftData" */;
+			buildConfigurationList = 045075BD2FFBB92800250891 /* Build configuration list for PBXProject "SwiftDataExpenseTracker" */;
 			developmentRegion = en;
 			hasScannedForEncodings = 0;
 			knownRegions = (
@@ -99,7 +99,7 @@
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				045075C12FFBB92800250891 /* SwiftData */,
+				045075C12FFBB92800250891 /* SwiftDataApp */,
 			);
 		};
 /* End PBXProject section */
@@ -309,7 +309,7 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		045075BD2FFBB92800250891 /* Build configuration list for PBXProject "SwiftData" */ = {
+		045075BD2FFBB92800250891 /* Build configuration list for PBXProject "SwiftDataExpenseTracker" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				045075CB2FFBB92B00250891 /* Debug */,
@@ -318,7 +318,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		045075CD2FFBB92B00250891 /* Build configuration list for PBXNativeTarget "SwiftData" */ = {
+		045075CD2FFBB92B00250891 /* Build configuration list for PBXNativeTarget "SwiftDataApp" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				045075CE2FFBB92B00250891 /* Debug */,
