@@ -13,10 +13,8 @@ struct ContentView: View {
     @State private var isShowingItemSheet = false
     @State private var expenseToEdit: Expense?
 
-    @Query(
-        filter: #Predicate<Expense> { $0.value > 1000 },
-        sort: \Expense.date
-    )
+    //Fetching Data
+    @Query(sort: \Expense.date)
     var expenses: [Expense]
 
     var body: some View {
@@ -30,6 +28,7 @@ struct ContentView: View {
                 }
                 .onDelete { indexSet in
                     for index in indexSet {
+                        //delete
                         context.delete(expenses[index])
                     }
                     try? context.save()
@@ -137,6 +136,7 @@ struct AddExpenseSheet: View {
                 ToolbarItemGroup(placement: .topBarTrailing) {
                     Button("Save") {
                         let expense = Expense(name: name, date: date, value: value)
+                        //Add
                         context.insert(expense)
                         dismiss()
                     }
